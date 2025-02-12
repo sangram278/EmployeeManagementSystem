@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EMS</title>
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+
+        #header h1 {
+            font-size: 24px;
+            color: #333;
+            text-transform: capitalize;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons form {
+            margin: 10px 0;
+        }
+
+        .buttons input {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .buttons input:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<body>
+
+<div class="container">
+    <div id="header">
+      <h1>Welcome to employee <br>management system</h1>
+    </div>
+    
+    <div class="buttons">
+       <form action="add"> <input type="submit" value="Add Employee"> </form>
+       <form action="display"> <input type="submit" value="Display Employee"> </form>
+    </div>
+</div>
+
+</body>
+</html>

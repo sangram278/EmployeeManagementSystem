@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>registration</title>
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<body>
+   <div class="container">
+     <h2>Registration Form</h2>
+     <form action="reg">
+     <table>
+     <tr>
+     <td>Employee id:</td>
+     <td><input type="number" name="EmpId"/></td>
+     </tr>
+     <tr>
+     <td>Employee Name:</td>
+     <td><input type="text" name="EmpName"/></td>
+     </tr>
+     <tr>
+     <td>Employee Age:</td>
+     <td><input type="number" name="EmpAge"/></td>
+     </tr>
+     <tr>
+     <td>Employee email:</td>
+     <td><input type="email" name="EmpMail"/></td>
+     </tr>
+     <tr>
+     <td>Employee contact:</td>
+     <td><input type="number" name="EmpPh"/></td>
+     </tr>
+     <tr>
+     <td>Employee salary:</td>
+     <td><input type="number" name="EmpSal"/></td>
+     </tr>
+     <tr>
+     <td colspan="2" style="text-align: center;"><input type="submit" value="submit"/></td>
+     </tr>
+     </table>
+     </form>
+   </div>
+</body>
+</html>
