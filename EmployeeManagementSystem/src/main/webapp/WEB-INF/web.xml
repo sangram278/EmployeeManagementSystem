@@ -7,10 +7,4 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-    <servlet-name>Context</servlet-name>
-    <servlet-class>ServletContext.Context</servlet-class>
-    <load-on-startup>1</load-on-startup>
-</servlet>
-  
 </web-app>
